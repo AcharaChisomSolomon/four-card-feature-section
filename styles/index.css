@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Poppins-200';
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Poppins-400';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-600';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+:root {
+    --font-family-primary: 'Poppins-400', sans-serif;
+    --font-family-secondary: 'Poppins-600', sans-serif;
+    --font-family-tertiary: 'Poppins-200', sans-serif;
+
+    --color-primary: hsl(234, 12%, 34%);
+    --background-color: hsl(0, 0%, 98%);
+    --shadow-color: hsl(229, 6%, 66%);
+
+    --border-red: hsl(0, 78%, 62%);
+    --border-cyan: hsl(180, 62%, 55%);
+    --border-orange: hsl(34, 97%, 64%);
+    --border-blue: hsl(212, 86%, 64%);
+}
