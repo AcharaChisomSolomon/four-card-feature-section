@@ -17,10 +17,101 @@
 
     --color-primary: hsl(234, 12%, 34%);
     --background-color: hsl(0, 0%, 98%);
+    --card-background: hsl(0, 0%, 100%);
     --shadow-color: hsl(229, 6%, 66%);
 
     --border-red: hsl(0, 78%, 62%);
     --border-cyan: hsl(180, 62%, 55%);
     --border-orange: hsl(34, 97%, 64%);
     --border-blue: hsl(212, 86%, 64%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-family-primary);
+    color: var(--color-primary);
+    background-color: var(--background-color);
+    margin: 0;
+}
+h1, h2, p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 23.4375rem;
+    margin: 0 auto;
+    padding: 5.31rem 2rem 4.87rem 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 4.75rem;
+}
+.header__subtitle {
+    font-family: var(--font-family-tertiary);
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.01044rem;
+}
+.header__title {
+    font-family: var(--font-family-secondary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.01044rem;
+    margin-bottom: 0.81rem;
+}
+.header__text {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.card {
+    background-color: var(--card-background);
+    border-radius: 0.5rem;
+    box-shadow: 0 15px 30px -11px var(--shadow-color);
+    padding: 1.47rem 1.75rem 1.75rem 1.75rem;
+}
+.card__title {
+    font-family: var(--font-family-secondary);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card__text {
+    font-size: 0.8125rem;
+    line-height: 1.4375rem;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.card__image {
+    width: 3.5625rem;
+    height: 3.5625rem;
+    margin-top: 2.06rem;
+    margin-left: auto;
+}
+img {
+    width: 100%;
+}
+.red {
+    border-top: 0.222rem solid var(--border-red);
+}
+.cyan {
+    border-top: 0.222rem solid var(--border-cyan);
+}
+.orange {
+    border-top: 0.222rem solid var(--border-orange);
+}
+.blue {
+    border-top: 0.222rem solid var(--border-blue);
 }
