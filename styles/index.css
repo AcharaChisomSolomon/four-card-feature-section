@@ -132,6 +132,7 @@ img {
         letter-spacing: 0.01563rem;
     }
     .header__title {
+        margin-top: -0.5rem;
         font-size: 2.25rem;
         letter-spacing: 0.01563rem;
         margin-bottom: 1rem;
