@@ -18,7 +18,7 @@
     --color-primary: hsl(234, 12%, 34%);
     --background-color: hsl(0, 0%, 98%);
     --card-background: hsl(0, 0%, 100%);
-    --shadow-color: hsl(229, 6%, 66%);
+    --shadow-color: rgba(131, 166, 210, 0.5);
 
     --border-red: hsl(0, 78%, 62%);
     --border-cyan: hsl(180, 62%, 55%);
